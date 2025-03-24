@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    
+    <!-- font-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    
+
+    
+    <link rel="stylesheet" href ="../CSS/cssHomePage.css">
+    <link rel="stylesheet" href="../CSS/swiper-bundle.min.css">
+    <script src="../JS/slider.js"></script>
+    <script src="../JS/swipeer.js"></script>
+</head>
+<body>
+    <!--navbar -->
+    <nav class="navbar">
+        <h1><span>DiamondCUt</span> Motors</h1>
+
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="Cars.html">Cars</a>
+            <a href="showroom.html">Showroom</a>
+            <a href="AboutUs.html">About us</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="Login.html" id="Login"><img src="../Gambar/login.png" alt="Login"></a>
+            <a href="referensi.html" id="referensi"><img src="../Gambar/ref.png" alt="Menu"></a>
+            <a href="#" id="hamburger-menu"><img src="../Gambar/hamburger menu.png" alt="Menu"></a>
+        </div>
+    </nav>
+
+    <!-- gambar-->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Where Luxury </h1>
+            <h2>Meets <span>Performance</span> </h2>
+            <p> Providing Luxury Vehicles Across Indonesia</p>
+            <a href="Cars.html" class="cta">Buy Cars</a>
+        </main>
+    </section>
+
+    <!-- Top Tier Cars -->
+
+
+    <section class="show">
+        <div class="title">
+            <h2><span>Top</span> Tier Cars</h2>
+        </div>
+        <div class="parent">
+            <div class="gambar1"></div>
+            <div class="kotak1">
+                <p>The Bugatti Chiron is the pinnacle of automotive excellence, boasting a monstrous 8.0-liter quad-turbocharged W16 engine delivering 1,500 horsepower. It accelerates from 0 to 60 mph in just 2.5 seconds and has a top speed of 261 mph. Meticulously crafted with luxurious materials, its interior exudes opulence. Advanced technology ensures unparalleled handling and stability, making it a masterpiece of engineering and a symbol of automotive excellence.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="show2">
+
+        <div class="parent2">
+            <div class="gambar12">
+                <p>The Bugatti Chiron's interior is a testament to luxury and craftsmanship. Adorned with the finest materials such as handcrafted leather, carbon fiber, and brushed aluminum accents, it exudes opulence and refinement. Every detail is meticulously designed, from the ergonomically contoured seats to the intuitive dashboard layout. The cabin offers a perfect balance of comfort and sportiness, providing a cocoon-like environment for the driver and passengers. Advanced technology seamlessly integrates with the interior, offering features such as touchscreen infotainment systems and customizable driving modes. Overall, the interior of the Bugatti Chiron is a sanctuary of luxury, where every journey is an indulgent experience.</p>
+
+            </div>
+            <div class="kotak12"></div>
+        </div>
+    </section>
+
+    <section id="top" class="top">
+        <h3>Another <span>Top</span> Tier Cars</h3>
+        <div class="row">
+            <div class="top-card">
+                <img src="../Gambar/bugatti chiron.jpg" alt="Chiron">
+                <h4 class="top-card-judul">- Bugatti Chiron -</h4>
+                <p class="top-card-harga">IDR 53 B</p>
+            </div>
+            <div class="top-card">
+                <img src="../Gambar/lamborghini huracan.jpg" alt="huracan">
+                <h4 class="top-card-judul">- Lamborghini Huracan -</h4>
+                <p class="top-card-harga">IDR 14 B</p>
+            </div>
+            <div class="top-card">
+                <img src="../Gambar/ferrari f8 (2).jpg" alt="f8">
+                <h4 class="top-card-judul">- Ferrari F8 -</h4>
+                <p class="top-card-harga">IDR 11,8 B</p>
+            </div>
+            <div class="top-card">
+                <img src="../Gambar/lamborghini aventador.jpg" alt="aventador">
+                <h4 class="top-card-judul">- Lamborghini Aventador -</h4>
+                <p class="top-card-harga">IDR 8,7 B</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Featured Cars -->
+
+    <section class="head1">
+        <h1><span>Featured</span> Cars</h1>
+    </section>
+    <section class="featured">
+        <div class="container">
+          <div class="slider-wrapper">
+            <button id="prev-slide" class="slide-button material-symbols-rounded">
+              <img src="../Gambar/back.png" alt="">
+            </button>
+            <ul class="image-list">
+              <img class="image-item" src="../Gambar/Mercedes amg gt.jpg" alt="img-1" />
+              <img class="image-item" src="../Gambar/Porche 911.jpg" alt="img-2" />
+              <img class="image-item" src="../Gambar/BMW i5.jpg" alt="img-3" />
+              <img class="image-item" src="../Gambar/lamborghini aventador.jpg" alt ="img-4" />
+              <img class="image-item" src="../Gambar/lamborghini huracan.jpg" alt="img-5" />
+              <img class="image-item" src="../Gambar/revuelto.jpg" alt="img-6" />
+              <img class="image-item" src="../Gambar/BMW M4 (2).jpg" alt="img-7" />
+              <img class="image-item" src="../Gambar/ferrari roma.jpg" alt="img-8" />
+            </ul>
+            <button id="next-slide" class="slide-button material-symbols-rounded">
+             <img src="../Gambar/next.png" alt="">
+            </button>
+          </div>
+          <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+              <div class="scrollbar-thumb"></div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="head">
+            <h1><span>Cars</span> For You</h1>
+        </div>
+        <div class="slider">
+            <div class="footer-logos">
+                <div class="logo-image position-1">
+                    <img src="../Gambar/bugatti chiron.jpg" alt="Porsche" class="logo-img">
+                    <p>Bugatti Chiron</p>
+                </div>
+                <div class="logo-image position-2">
+                    <img src="../Gambar/Porche 911.jpg" alt="Ferrari" class="logo-img">
+                    <p>Porsche 911</p>
+                </div>
+                <div class="logo-image position-3">
+                    <img src="../Gambar/lamborghini aventador.jpg" alt="BMW" class="logo-img">
+                    <p>Aventador</p>
+                </div>
+                <div class="logo-image position-4">
+                    <img src="../Gambar/Mercedes amg gt.jpg" alt="Lamborghini" class="logo-img">
+                    <p>Mercedes AMG GT</p>
+                </div>
+                <div class="logo-image position-5">
+                    <img src="../Gambar/ferrari f8 (2).jpg" alt="Mercedes" class="logo-img">
+                    <p>Ferrari F8</p>
+                </div>
+                <div class="logo-image position-6">
+                    <img src="../Gambar/BMW M4 (2).jpg" alt="Bugatti" class="logo-img">
+                    <p>BMW M4</p>
+                </div>
+            </div>            
+        </div>
+    </footer>
+     
+
+    <!-- Menu js -->
+    <script src="../JS/script.js"></script>
+
+
+
+</body>
+
+<script src="../JS/swiper-bundle.min.js"></script>
+<script src="../JS/jstes.js"></script>
+</html>
